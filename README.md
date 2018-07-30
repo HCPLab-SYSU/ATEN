@@ -35,18 +35,14 @@ VIP
 --------videos404  
 ----adjacent_frames  
 --------videos1  
-        ...  
---------videos404  
-----behind_frame_list  
+--------...  
+--------videos404    
 ----front_frame_list  
-----Categorys  
 ----Category_ids  
-----Category_rev_ids  
-----Human  
-----Human_ids  
-----Instances  
+----Human_ids   
 ----Instance_ids  
 ----lists  
+........  
 
 5. Model setup
 download released weights and place in models floder.
