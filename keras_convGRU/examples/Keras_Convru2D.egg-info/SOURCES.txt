@@ -1,0 +1,5 @@
+Keras_Convru2D.egg-info/PKG-INFO
+Keras_Convru2D.egg-info/SOURCES.txt
+Keras_Convru2D.egg-info/dependency_links.txt
+Keras_Convru2D.egg-info/requires.txt
+Keras_Convru2D.egg-info/top_level.txt
