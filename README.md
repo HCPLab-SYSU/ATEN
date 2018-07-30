@@ -27,25 +27,25 @@ cd ops
 make
 ```
 4. Dataset setup. Download the [VIP dataset](http://sysu-hcp.net/lip/video_parsing.php)(both VIP_Fine and VIP_Sequence) and decompress them. The directory structure of VIP should be as follows:
->VIP
->>Images
->>>videos1  
->>>...  
->>>videos404  
->>adjacent_frames  
->>>videos1  
->>>...  
->>>videos404  
->>behind_frame_list  
->>front_frame_list  
->>Categorys  
->>Category_ids  
->>Category_rev_ids  
->>Human  
->>Human_ids  
->>Instances  
->>Instance_ids  
->>lists  
+VIP
+    Images
+        videos1  
+        ...  
+        videos404  
+    adjacent_frames  
+        videos1  
+        ...  
+        videos404  
+    behind_frame_list  
+    front_frame_list  
+    Categorys  
+    Category_ids  
+    Category_rev_ids  
+    Human  
+    Human_ids  
+    Instances  
+    Instance_ids  
+    lists  
 
 5. Model setup
 download released weights and place in models floder.
