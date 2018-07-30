@@ -21,7 +21,7 @@ ATEN(p=2,l=3) weights(parsing_rcnn.h5).
 cd keras_convGRU
 python setup.py install
 ```
-3. flow_warp ops compile(optional). The flow_warp.so have been generated(Ubuntu14.04, gcc4.8.4, python3.6, tf1.4). To compile flow_warp ops, you can excute the code as follows:
+3. Compile flow_warp ops(optional). The flow_warp.so have been generated(Ubuntu14.04, gcc4.8.4, python3.6, tf1.4). To compile flow_warp ops, you can excute the code as follows:
 ```Bash
 cd ops
 make
