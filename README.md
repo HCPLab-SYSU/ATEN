@@ -1,4 +1,3 @@
-# ATEN
 # Adaptive Temporal Encoding Network for Video Instance-level Human Parsing
 By Qixian Zhou, Xiaodan Liang, Ke Gong, Liang Lin (ACM MM18)
 
@@ -10,7 +9,9 @@ The model is trained and evaluated on our proposed [VIP dataset](http://sysu-hcp
 
 ## Models
 Models are released on google drive and [baidu drive](https://pan.baidu.com/s/1tZfm3Prvzn47cZi5RZ-lNw):
+
 Parsing-RCNN(frame-level) weights(aten_p2l3.h5).
+
 ATEN(p=2,l=3) weights(parsing_rcnn.h5).
 
 ## Installation
@@ -28,23 +29,23 @@ make
 4. Dataset setup. Download the [VIP dataset](http://sysu-hcp.net/lip/video_parsing.php)(both VIP_Fine and VIP_Sequence) and decompress them. The directory structure of VIP should be as follows:
 >VIP
 >>Images
->>>videos1
->>>...
->>>videos404
->>adjacent_frames
->>>videos1
->>>...
->>>videos404
->>behind_frame_list
->>front_frame_list
->>Categorys
->>Category_ids
->>Category_rev_ids
->>Human
->>Human_ids
->>Instances
->>Instance_ids
->>lists
+>>>videos1  
+>>>...  
+>>>videos404  
+>>adjacent_frames  
+>>>videos1  
+>>>...  
+>>>videos404  
+>>behind_frame_list  
+>>front_frame_list  
+>>Categorys  
+>>Category_ids  
+>>Category_rev_ids  
+>>Human  
+>>Human_ids  
+>>Instances  
+>>Instance_ids  
+>>lists  
 
 5. Model setup
 download released weights and place in models floder.
@@ -58,7 +59,7 @@ python scripts/vip/train_aten.py
 python scripts/vip/train_parsingrcnn.py
 ```
 
-## inference
+## Inference
 ```Bash
 # ATEN inference on VIP
 python scripts/vip/test_aten.py
