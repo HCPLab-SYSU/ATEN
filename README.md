@@ -8,7 +8,7 @@ Python3, TensorFlow 1.3+, Keras 2.0.8+
 The model is trained and evaluated on our proposed [VIP dataset](http://sysu-hcp.net/lip/video_parsing.php) for video instance-level human parsing. Please check it for more model details.
 
 ## Models
-Models are released on google drive and [baidu drive](https://pan.baidu.com/s/1tZfm3Prvzn47cZi5RZ-lNw):
+Models are released on [google drive](https://drive.google.com/file/d/1UaSwRBesHDb4CxLeIINOAZ81vwRl8Ep2/view?usp=sharing) and [baidu drive](https://pan.baidu.com/s/1tZfm3Prvzn47cZi5RZ-lNw):
 
 Parsing-RCNN(frame-level) weights(aten_p2l3.h5).
 
