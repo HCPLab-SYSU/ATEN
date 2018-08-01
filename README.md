@@ -10,9 +10,9 @@ The model is trained and evaluated on our proposed [VIP dataset](http://sysu-hcp
 ## Models
 Models are released on [google drive](https://drive.google.com/file/d/1UaSwRBesHDb4CxLeIINOAZ81vwRl8Ep2/view?usp=sharing) and [baidu drive](https://pan.baidu.com/s/1tZfm3Prvzn47cZi5RZ-lNw):
 
-Parsing-RCNN(frame-level) weights(aten_p2l3.h5).
+* Parsing-RCNN(frame-level) weights(aten_p2l3.h5).
 
-ATEN(p=2,l=3) weights(parsing_rcnn.h5).
+* ATEN(p=2,l=3) weights(parsing_rcnn.h5).
 
 ## Installation
 1. Clone this repository
@@ -44,8 +44,7 @@ VIP
 ----lists  
 ........  
 
-5. Model setup
-download released weights and place in models floder.
+5. Model setup. Download released weights and place in models floder.
 
 ## Training
 ```Bash
@@ -67,6 +66,6 @@ python scripts/vip/test_parsingrcnn.py
 the results are stored in ./vis
 
 ## Acknowledgements
-This code is based on some source code on github:
+This code is based on other source code on github:
 1. matterport/Mask_RCNN(https://github.com/matterport/Mask_RCNN), an implementation of Mask R-CNN on Python 3, Keras, and TensorFlow. 
 2. KingMV/ConvGRU(https://github.com/KingMV/ConvGRU), an implementation of ConvGRU2D on Keras.
