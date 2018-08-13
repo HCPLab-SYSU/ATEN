@@ -10,9 +10,9 @@ The model is trained and evaluated on our proposed [VIP dataset](http://sysu-hcp
 ## Models
 Models are released on [google drive](https://drive.google.com/file/d/1UaSwRBesHDb4CxLeIINOAZ81vwRl8Ep2/view?usp=sharing) and [baidu drive](https://pan.baidu.com/s/1tZfm3Prvzn47cZi5RZ-lNw):
 
-* Parsing-RCNN(frame-level) weights(aten_p2l3.h5).
+* Parsing-RCNN(frame-level) weights(parsing_rcnn.h5).
 
-* ATEN(p=2,l=3) weights(parsing_rcnn.h5).
+* ATEN(p=2,l=3) weights(aten_p2l3.h5).
 
 ## Installation
 1. Clone this repository
