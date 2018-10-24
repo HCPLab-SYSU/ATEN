@@ -1,7 +1,7 @@
 # Adaptive Temporal Encoding Network for Video Instance-level Human Parsing
 By Qixian Zhou, Xiaodan Liang, Ke Gong, Liang Lin (ACM MM18)
-
-[Video demo](http://www.sysu-hcp.net/wp-content/uploads/2018/10/video_human_parsing_demo.mp4)
+[![Video demo](demo.gif)](http://www.sysu-hcp.net/wp-content/uploads/2018/10/video_human_parsing_demo.mp4)
+[complete video demo](http://www.sysu-hcp.net/wp-content/uploads/2018/10/video_human_parsing_demo.mp4)
 
 ## Requirements
 Python3, TensorFlow 1.3+, Keras 2.0.8+
