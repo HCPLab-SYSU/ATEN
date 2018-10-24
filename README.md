@@ -81,6 +81,16 @@ python evaluate/test_ap.py
 python evaluate/test_inst_part_ap.py
 ```
 
+## Reference
+```
+@inproceedings{zhou2018,
+    Author = {Qixian Zhou, Xiaodan Liang, Ke Gong, Liang Lin},
+    Title = {Adaptive Temporal Encoding Network for Video Instance-level Human Parsing},
+    Booktitle = {Proc. of ACM International Conference on Multimedia (ACM MM)},
+    Year = {2018}
+} 
+```
+
 ## Acknowledgements
 This code is based on other source code on github:
 1. matterport/Mask_RCNN(https://github.com/matterport/Mask_RCNN), an implementation of Mask R-CNN on Python 3, Keras, and TensorFlow. 
