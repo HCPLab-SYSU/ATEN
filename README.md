@@ -1,7 +1,6 @@
 # Adaptive Temporal Encoding Network for Video Instance-level Human Parsing
 By Qixian Zhou, Xiaodan Liang, Ke Gong, Liang Lin (ACM MM18)
 [![Video demo](demo.gif)](http://www.sysu-hcp.net/wp-content/uploads/2018/10/video_human_parsing_demo.mp4)
-# [complete video demo](http://www.sysu-hcp.net/wp-content/uploads/2018/10/video_human_parsing_demo.mp4)
 
 ## Requirements
 Python3, TensorFlow 1.3+, Keras 2.0.8+
@@ -10,7 +9,9 @@ Python3, TensorFlow 1.3+, Keras 2.0.8+
 The model is trained and evaluated on our proposed VIP dataset for video instance-level human parsing. Please check it for more dataset details. VIP dataset contains 404 video sequences, including 304 sequences for training set, 50 sequences for validation set and 50 sequences for test set. For every 25 consecutive frames in each video, one frame is annotated densely with pixel-wise semantic part categories and instance-level identification. We release the source videos, frames and the fine annotations for training and validation set. You can evaluate the performance of your model on validation set with our released evaluation code.
 
 The VIP dataset is available on Baidu drive:
+
 link: https://pan.baidu.com/s/1rt9wmRf6o8HoBzj7EscyeQ 
+
 pwd: cpbt
 
 ## Models
