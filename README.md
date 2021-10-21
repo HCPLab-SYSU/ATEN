@@ -1,7 +1,7 @@
 # Adaptive Temporal Encoding Network for Video Instance-level Human Parsing
 By Qixian Zhou, Xiaodan Liang, Ke Gong, Liang Lin (ACM MM18)
 [![Video demo](demo.gif)](http://www.sysu-hcp.net/wp-content/uploads/2018/10/video_human_parsing_demo.mp4)
-[complete video demo](http://www.sysu-hcp.net/wp-content/uploads/2018/10/video_human_parsing_demo.mp4)
+# [complete video demo](http://www.sysu-hcp.net/wp-content/uploads/2018/10/video_human_parsing_demo.mp4)
 
 ## Requirements
 Python3, TensorFlow 1.3+, Keras 2.0.8+
@@ -32,7 +32,7 @@ python setup.py install
 cd ops
 make
 ```
-4. Dataset setup. Download the [VIP dataset](http://sysu-hcp.net/lip/video_parsing.php)(both VIP_Fine and VIP_Sequence) and decompress them. The directory structure of VIP should be as follows:
+4. Dataset setup. Download the VIP dataset(both VIP_Fine and VIP_Sequence) and decompress them. The directory structure of VIP should be as follows:
 
 VIP  
 ----Images  
